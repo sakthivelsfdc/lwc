@@ -1,3 +1,16 @@
+
+/**
+ *
+ * This Apex Test Class Created to cover the Opportunity Trigger
+ *  - Created Test User with non system admin profile
+ *  - Used Syste.runAs to execute the test user
+ *  - Created Opportunity Record
+ *  - Deleted Opporutnity
+ *  - Check AddError validation as per the Trigger
+ *
+ * @author  Sakthivel Madesh
+ * @date    Sep 25, 2019
+ */
 @isTest
 public class OpportunityDeleteTriggerTestClass {
     
